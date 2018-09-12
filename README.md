@@ -36,10 +36,12 @@ Extract the PacketAnalyzer.zip file.
 
 Go to src directory inside PacketAnalyzer. Compile all the java classes in src folder using
 
-javac -c *.java
+javac *.java
 
 Run PacketAnalyzerMain.java with a pcap file as command line argument.
 
-Example 1: java PacketAnalyzerMain tcp.pcap
+java PacketAnalyzerMain path/filename
 
-Example 2: java PacketAnalyzerMain udp.pcap
+Example 1: java PacketAnalyzerMain /Users/amol/PacketAnalyzer/tcp.pcap
+
+Example 2: java PacketAnalyzerMain /Users/amol/PacketAnalyzer/udp.pcap
