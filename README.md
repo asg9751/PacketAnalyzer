@@ -4,9 +4,9 @@ PacketAnalyzer is a Java application that reads network packets (TCP/UDP/ICMP) a
 
 **Features:**
 1. Reads pcap formatted files. Skips first 40 bytes of pcap file as pcap header length.
-2. Reads and displays Ethernet headers
-3. Reads and displays IPv4 packets
-4. Reads and displays TCP, UDP and ICMP packets
+2. Reads and displays Ethernet headers.
+3. Reads and displays IPv4 packets.
+4. Reads and displays TCP, UDP and ICMP packets.
 
 **Contents:**
 
